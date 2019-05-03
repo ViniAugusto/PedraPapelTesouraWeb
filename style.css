@@ -1,9 +1,47 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Gugi', cursive;
+}
+body{
+    background-color: #6763DC;
 }
 
 div{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+p{
+    text-align: center;
+}
+button{
+    border-radius: 3px;
+    background-color:#3430B6;
+    border: 3px solid transparent;
+    margin-top: 10px;
+    
+}
+/* IDs */
+#pedra{
+    position: absolute;
+    left: 124px;
+    top: 52px;
+}
+
+#papel{
+    position: absolute;
+    left: 124px;
+    top: 71px;
+
+}
+
+#tesoura{
+    position: absolute;
+    left: 124px;
+    top: 91px;
+
 }

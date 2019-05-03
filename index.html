@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
 </head>
 <body>
     <div>
-        <input type="radio" name="gender" value="male"> Male
-        <input type="radio" name="gender" value="female"> Female
-        <input type="radio" name="gender" value="other"> Other
+        <input type="radio" name="pick" id="pedra" value="PEDRA"> PEDRA <br>
+        <input type="radio" name="pick" id="papel" value="PAPEL"> PAPEL <br>
+        <input type="radio" name="pick" id="tesoura" value="TESOURA"> TESOURA <br>
+        <button class="btn">Desafiar</button>
+    </div>
+    <div>
+        <p id="escolhas"></p>
+        <p id="resultado"></p>
     </div>
 </body>
 </html>
